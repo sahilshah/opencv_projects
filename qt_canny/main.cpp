@@ -39,7 +39,7 @@ void CannyThreshold(int, void*)
 
 /** @function main */
 int main( int argc, char** argv )
-{	
+{
   /// Load an image
   src = imread( argv[1] );
 
@@ -65,4 +65,4 @@ int main( int argc, char** argv )
   waitKey(0);
 
   return 0;
-  }
+}
